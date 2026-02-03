@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="idk.css" />
+  </head>
+
+  <body>
+    <div class="one">
+      <input id="locationInput" placeholder="Enter Location" />
+      <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div class="two">
+      <div class="top">
+        <div class="temp idle" id="temp">Search a city</div>
+        <div class="city idle" id="cityname">to see weather</div>
+      </div>
+
+      <div class="box timebox">
+        <span id="time" class="idle">--:--:--</span>
+        <span id="day" class="idle">---</span>
+        <span id="date" class="idle">--/--</span>
+      </div>
+
+      <div class="box weatherbox">
+        <div id="icon">🌡️</div>
+        <span id="weather" class="idle">---</span>
+      </div>
+    </div>
+
+    <script src="idk.js"></script>
+  </body>
+</html>
