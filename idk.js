@@ -23,7 +23,7 @@
 
         try {
           const res = await fetch(
-            `http://api.weatherapi.com/v1/current.json?key=fa973867ed194c70a15105725260302&q=${location},In&aqi=yes`
+            `https://api.weatherapi.com/v1/current.json?key=fa973867ed194c70a15105725260302&q=${location},In&aqi=yes`
           );
 
           if (!res.ok) {
